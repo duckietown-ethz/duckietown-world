@@ -1,0 +1,12 @@
+# 6x6 map for the AMODLab in K31; three loops, with three intersetions (2 three-way, 1 four-way)
+tiles:
+
+- [curve_left/W , straight/W, 3way_left/W , straight/W, curve_left/N, asphalt      ]
+- [straight/S   , asphalt   ,  straight/S , asphalt   , curve_left/S, curve_left/N ]
+- [straight/S   , asphalt   ,  straight/S , asphalt   , asphalt     , straight/S   ]
+- [curve_right/W, straight/W, 4way/W      , straight/W, straight/W  , 3way_left/N  ]
+- [asphalt      , asphalt   ,  straight/S , asphalt   , asphalt     , straight/S   ]
+- [asphalt      , asphalt   ,curve_right/W, straight/W, straight/W  , curve_right/S]
+
+tile_size: 0.585
+
